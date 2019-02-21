@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: cougarbot
+    relative_path: urdf/cougarbot.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/cougarbot.srdf
+  CONFIG:
+    author_name: leechan.rv
+    author_email: mechleechan@outlook.com
+    generated_timestamp: 1550669825
